@@ -1,7 +1,7 @@
 /* Imports */
 
 /* Get DOM Elements */
-
+const submitButton = document.getElementById();
 /* State */
 
 /* Events */
