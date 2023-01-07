@@ -10,11 +10,10 @@ body {
     background: var(--background);
     display: grid;
     grid-template-rows: auto 1fr;
-    background-image: url(../assets/background.jpg);
 }
 
 header {
-    position: sticky;
+    position: relative;
     top: 0;
     padding: 15px;
     height: 80px;
@@ -36,9 +35,10 @@ header .logo {
 
 main {
     display: flex;
-    justify-content: center;
+    align-content: center;
     align-items: center;
-    padding: 20px;
+    padding: 50px;
+    background-image: url(../assets/background.jpg);
 }
 
 .hide {
@@ -46,18 +46,17 @@ main {
 }
 
 .image {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 650px;
+    width: 700px;
     height: 600px;
 }
 
 .submit-input {
     color: rgb(216, 129, 144);
+    border-radius: 1em;
 }
 
 #submit {
+    
     color: rgb(216, 129, 144);
 }
 
@@ -72,3 +71,22 @@ p {
 .button {
     color: rgb(216, 129, 144);
 }
+
+.prompt {
+    display: block;
+    margin: 0 auto;
+}
+
+#fortune {
+    display: block
+    margin: 0 auto;
+
+}
+
+#question {
+    color: rgb(255, 255, 255);
+    font-size: 3em;
+    font-family: DM Serif Display;
+
+}
+

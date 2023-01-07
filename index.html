@@ -14,6 +14,12 @@
         <script type="module" src="app.js"></script>
 
         <!-- fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap"
+            rel="stylesheet"
+        />
         <!-- see https://fonts.google.com/ -->
 
         <!-- css -->
@@ -26,16 +32,17 @@
             <img class="logo" src="assets/html_css_js.png" alt="logo" />
             <h1>Magic 8 Ball</h1>
         </header>
-
-        <section id="prompt" class="prompt">
-            <p>Welcome, ask a question to get your fortune!</p>
-            <input class="submit-input" type="text" placeholder="What is your question?" />
-            <button class="button" id="submit">Submit</button>
-        </section>
-        <section id="fortune" class="fortune hide">
-            <img class="image" src="./assets/magic-8-ball.png" alt="magic 8 ball" />
-            <p id="answer"></p>
-            <button class="button" id="reset">Ask again!</button>
-        </section>
+        <main>
+            <section id="prompt" class="prompt">
+                <div id="question">Ask a question to get your fortune!</div>
+                <input class="submit-input" type="text" placeholder="What is your question?" />
+                <button class="button" id="submit">Submit</button>
+            </section>
+            <section id="fortune" class="fortune hide">
+                <img class="image" src="./assets/magic-8-ball.png" alt="magic 8 ball" />
+                <p id="answer"></p>
+                <button class="button" id="reset">Ask again!</button>
+            </section>
+        </main>
     </body>
 </html>
