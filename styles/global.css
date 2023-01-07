@@ -13,7 +13,7 @@ body {
 }
 
 header {
-    position: sticky;
+    position: relative;
     top: 0;
     padding: 15px;
     height: 80px;
@@ -24,6 +24,9 @@ header {
 
     background-color: var(--header-background);
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 header .logo {
@@ -31,5 +34,59 @@ header .logo {
 }
 
 main {
-    padding: 20px;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    padding: 50px;
+    background-image: url(../assets/background.jpg);
 }
+
+.hide {
+    display: none;
+}
+
+.image {
+    width: 700px;
+    height: 600px;
+}
+
+.submit-input {
+    color: rgb(216, 129, 144);
+    border-radius: 1em;
+}
+
+#submit {
+    
+    color: rgb(216, 129, 144);
+}
+
+p {
+    color: white;
+}
+
+#answer {
+    color: white;
+}
+
+.button {
+    color: rgb(216, 129, 144);
+}
+
+.prompt {
+    display: block;
+    margin: 0 auto;
+}
+
+#fortune {
+    display: block
+    margin: 0 auto;
+
+}
+
+#question {
+    color: rgb(255, 255, 255);
+    font-size: 3em;
+    font-family: DM Serif Display;
+
+}
+
