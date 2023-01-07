@@ -22,6 +22,7 @@ submitBtn.addEventListener('click', () => {
 });
 
 resetBtn.addEventListener('click', () => {
+    toggleSections();
     // hide 8 ball and the answer
     // show prompt
 });
