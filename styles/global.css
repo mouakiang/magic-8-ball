@@ -10,6 +10,7 @@ body {
     background: var(--background);
     display: grid;
     grid-template-rows: auto 1fr;
+    background-image: url(../assets/background.jpg);
 }
 
 header {
@@ -24,6 +25,9 @@ header {
 
     background-color: var(--header-background);
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 header .logo {
@@ -35,7 +39,6 @@ main {
     justify-content: center;
     align-items: center;
     padding: 20px;
-    background-image: url(../assets/background.jpg);
 }
 
 .hide {
@@ -43,9 +46,29 @@ main {
 }
 
 .image {
-    display: grid;
+    display: flex;
     justify-content: center;
     align-items: center;
-    width: 500px;
-    height: 500px;
+    width: 650px;
+    height: 600px;
+}
+
+.submit-input {
+    color: rgb(216, 129, 144);
+}
+
+#submit {
+    color: rgb(216, 129, 144);
+}
+
+p {
+    color: white;
+}
+
+#answer {
+    color: white;
+}
+
+.button {
+    color: rgb(216, 129, 144);
 }
