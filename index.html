@@ -28,18 +28,15 @@
             <h1>Magic 8 Ball</h1>
         </header>
 
-        <main>
-            <section id="prompt" class="prompt">
-                <h1 class="h1">Ask me a question..</h1>
-                <input class="input" type="text" />
-                <button id="button">Submit</button>
-            </section>
-
-            <section id="response" class="response-2">
-                <img src="./assets/8ballpng.png" />
-                <p id="answer"></p>
-                <button id="reset">Try Again</button>
-            </section>
-        </main>
+        <section id="prompt" class="prompt">
+            <p>Ask me anything</p>
+            <input class="submit-input" type="text" placeholder="Will I get an A?" />
+            <button class="button" id="submit">Submit</button>
+        </section>
+        <section id="fortune" class="fortune hide">
+            <img class="image" src="./assets/8ball2.jpg" alt="magic 8 ball" />
+            <p id="answer"></p>
+            <button class="button" id="reset">Ask again!</button>
+        </section>
     </body>
 </html>

@@ -31,5 +31,21 @@ header .logo {
 }
 
 main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     padding: 20px;
+    background-image: url(../assets/background.jpg);
+}
+
+.hide {
+    display: none;
+}
+
+.image {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 500px;
 }
